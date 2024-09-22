@@ -1,0 +1,3 @@
+[submodule "static-ui"]
+	path = static-ui
+	url = https://github.com/firetrips9/Ultraviolet-Static.git
