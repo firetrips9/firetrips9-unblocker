@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>𝖙𝖍𝖊 𝖚𝖓𝖇𝖑𝖔𝖈𝖐𝖊𝖉 𝖕𝖗𝖔𝖝𝖞</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="baremux/index.js" defer></script>
+        <script src="epoxy/index.js" defer></script>
+        <script src="uv/uv.bundle.js" defer></script>
+        <script src="uv/uv.config.js" defer></script>
+        <script src="register-sw.js" defer></script>
+        <script src="search.js" defer></script>
+        <script src="index.js" defer></script>
+	    <input type="hidden" id="uv-search-engine" value="https://www.google.com/search?q=%s">
+    </head>
+    <body>
+        <center>
+            <h1>the unblocked proxy</h1>
+            <p class="inline">type here to search or go to a link: <form class="inline" id="uv-form"><input type="text" class="search thegoodfont" id="uv-address"><input type="submit" value="Go" class="search thegoodfont" style="background-color: aqua;"></form></p>
+            <p id="uv-error"></p>
+            <p id="uv-error-code"></p>
+        </center>
+        <iframe id="uv-frame"></iframe>
+    </body>
+</html>
